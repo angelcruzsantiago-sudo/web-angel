@@ -1,0 +1,10 @@
+body { background: #f8fafc; font-family: Arial; text-align: center; }
+h1 { color: #0f172a; }
+table { border-collapse: collapse; margin: 20px auto; background: white; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+td, th { border: 1px solid #cbd5e1; padding: 6px; width: 65px; height: 50px; font-size: 11px; }
+td { background: #f8fafc; }
+.activo { background: #bae6fd !important; font-weight: bold; }
+.activo a { color: #0369a1; text-decoration: none; }
+.activo:hover { background: #0ea5e9 !important; transform: scale(1.15); }
+.activo:hover a { color: white; }
+.vacio { border: none; background: transparent; }

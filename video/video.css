@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #facc15;
+  margin-bottom: 30px;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.card h2 {
+  font-size: 16px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+.audio-card {
+  background: #374151;
+}
